@@ -1,6 +1,6 @@
 # Genesys AudioHook & Transcription Connector Server & LLM Translation
 
-This repository contains a production-ready implementation of a Genesys AudioHook & Transcription Connector server that processes real-time audio streams for transcription using either **Google Cloud Speech-to-Text API** or **OpenAI Speech-to-Text API** and translation using **Google Gemini**. The transcribed (and optionally translated) text is then injected back into Genesys Cloud via event messages. This server is designed to meet the Genesys AudioHook protocol requirements and supports essential transactions such as session establishment, audio streaming, ping/pong heartbeats, and clean disconnection.
+This repository contains an implementation of a Genesys AudioHook & Transcription Connector server that processes real-time audio streams for transcription using either **Google Cloud Speech-to-Text API** or **OpenAI Speech-to-Text API** and translation using **Google Gemini**. The transcribed (and optionally translated) text is then injected back into Genesys Cloud via event messages. This server is designed to meet the Genesys AudioHook protocol requirements and supports essential transactions such as session establishment, audio streaming, ping/pong heartbeats, and clean disconnection.
 
 The project is designed to be deployed on **Digital Ocean** (or a similar platform) and integrates with **Google Cloud** or **OpenAI** for transcription and **Google Gemini** for translation.
 
